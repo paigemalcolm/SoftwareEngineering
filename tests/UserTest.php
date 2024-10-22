@@ -2,9 +2,10 @@
 // tests/UserTest.php
 
 use PHPUnit\Framework\TestCase;
-require_once '../src/User.php';
-class UserTest extends TestCase {
+require_once './src/User.php';
 
+class UserTest extends TestCase {
+    
     public function testUserSignUp() {
         // Create a new User instance
         $user = new User('John', 'Doe', 'john.doe@example.com', 'password123');

@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'e5d1c52f71df12d02b90d5028fe588692675cb07',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'e5d1c52f71df12d02b90d5028fe588692675cb07',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -101,9 +101,9 @@
             'dev_requirement' => true,
         ),
         'phpunit/phpunit' => array(
-            'pretty_version' => '11.0.0',
-            'version' => '11.0.0.0',
-            'reference' => 'ece3536c22fc5113906a42e7e82de00baaef36d0',
+            'pretty_version' => '11.4.2',
+            'version' => '11.4.2.0',
+            'reference' => '1863643c3f04ad03dcb9c6996c294784cdda4805',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/phpunit',
             'aliases' => array(),
@@ -137,9 +137,9 @@
             'dev_requirement' => true,
         ),
         'sebastian/comparator' => array(
-            'pretty_version' => '6.1.0',
-            'version' => '6.1.0.0',
-            'reference' => 'fa37b9e2ca618cb051d71b60120952ee8ca8b03d',
+            'pretty_version' => '6.1.1',
+            'version' => '6.1.1.0',
+            'reference' => '5ef523a49ae7a302b87b2102b72b1eda8918d686',
             'type' => 'library',
             'install_path' => __DIR__ . '/../sebastian/comparator',
             'aliases' => array(),
