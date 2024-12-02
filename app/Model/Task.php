@@ -63,7 +63,7 @@ function update_task($conn, $data) {
 
 function update_task_status($conn, $data) {
     try {
-        // Ensure the data array contains exactly 2 elements: status_id and task id
+        
         if (count($data) !== 2) {
             throw new Exception("Data array must contain exactly 2 elements: status_id and task id.");
         }
@@ -94,7 +94,7 @@ function get_task_by_id($conn, $id) {
 
 function get_all_tasks($conn) {
     // Get all tasks
-    return get_tasks_by_condition($conn, ''); // No condition for all tasks
+    return get_tasks_by_condition($conn, ''); 
 }
 
 function get_all_tasks_due_today($conn) {
