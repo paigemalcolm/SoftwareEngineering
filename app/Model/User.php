@@ -23,7 +23,7 @@ function update_user($conn, $data) {
     // Execute the query with the provided data
     $stmt->execute($data);
 
-    // Return true if the update was successful, false otherwise
+    
     return $stmt->rowCount() > 0;
 }
 
@@ -40,7 +40,7 @@ function get_user_by_id($conn, $id){
 	$stmt = $conn->prepare($sql);
 	$stmt->execute([$id]);
 
-	// Return user data if found, otherwise return an empty array
+	
 	return ($stmt->rowCount() > 0) ? $stmt->fetch() : [];
 }
 
