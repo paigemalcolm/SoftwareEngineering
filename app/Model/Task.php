@@ -8,7 +8,7 @@ function insert_task($conn, $data) {
 }
 
 function get_tasks_by_condition($conn, $condition = '') {
-    // Fetch tasks based on a condition (default is no condition)
+    
     $sql = "SELECT * FROM tasks WHERE 1=1 " . $condition . " ORDER BY id DESC";
     $stmt = $conn->prepare($sql);
     $stmt->execute([]);
