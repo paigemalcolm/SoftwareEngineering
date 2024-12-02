@@ -11,7 +11,7 @@ if (isset($_SESSION['id'])) {
     $stmt->bindParam(':user_id', $user_id, PDO::PARAM_INT);
     $stmt->execute();
     
-    // Fetch the result and echo the unread count
+    
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
     echo $result['unread_count'];
 } else {
